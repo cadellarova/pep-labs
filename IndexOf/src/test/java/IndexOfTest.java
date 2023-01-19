@@ -40,4 +40,5 @@ public class IndexOfTest {
         int expected = -1;
         Assert.assertEquals(expected, io.getIndex(input, target));
     }
+
 }
