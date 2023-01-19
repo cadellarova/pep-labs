@@ -75,7 +75,7 @@ public class FlightAppTest {
         }
     }
     /**
-     * The flightDAO should retrieve a flight with a specific ID when getFlightById is called.
+     * The flightDAO should retrieve a flight with a specific ID when getFlightById is called. 
      */
     @Test
     public void getFlightByIDTest2(){
