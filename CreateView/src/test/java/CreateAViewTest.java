@@ -51,8 +51,9 @@ public class CreateAViewTest {
             System.out.println("problem1: " + e.getMessage() + '\n');
             Assert.fail();
         }
-
+        
         Assert.assertEquals(expectedResult,actualResult);
+        
     }
 
 
