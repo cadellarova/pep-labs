@@ -64,6 +64,6 @@ public class CharComparisonTest {
     *    int expected = 1;
     *    int actual = cc.compare(input1, input2);
     *    Assert.assertEquals(expected, actual);
-    *
-    */}
+    *}
+    */
 }
