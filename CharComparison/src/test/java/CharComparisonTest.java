@@ -54,4 +54,16 @@ public class CharComparisonTest {
         Assert.assertEquals(expected, actual);
 
     }
+    /*
+     * dog should be before dogma bc it is shorter
+     */
+    /*@Test
+    *public void charCompareTest5(){
+    *    char[] input1 = {'d', 'o', 'g', 'm','a'};
+    *    char[] input2 = {'d', 'o', 'g'};
+    *    int expected = 1;
+    *    int actual = cc.compare(input1, input2);
+    *    Assert.assertEquals(expected, actual);
+    *
+    */}
 }

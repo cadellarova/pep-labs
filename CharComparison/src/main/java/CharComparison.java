@@ -11,6 +11,32 @@ public class CharComparison {
      * @return -1 if A is less than B, 1 if A is greater than B, and 0 if the two arrays are identical.
      */
     public int compare(char[] a, char[] b){
-        return 0;
+
+        for(int i = 0; i < a.length; i++){
+            if(i - a.length == 0 || i - b.length == 0){
+                break;
+            }
+            if(a[i] < b[i]){
+                return -1;
+            }
+            else if(a[i] > b[i]){
+                return 1;
+            }
+        }
+        if(a.length == b.length){
+            return 0;
+        }
+        else if (a.length > b.length){
+            return 1;
+        }
+        else{
+            return -1;
+        }
     }
 }
+/*
+ * test cases didnt check but I think this would fail for when the second word is long and the first
+ * part is all the same (ie, dog and dogma)
+ * also if first word is long, will throw array index out of bounds 
+ * fixed to check for length of array
+ */
